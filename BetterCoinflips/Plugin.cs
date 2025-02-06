@@ -8,7 +8,7 @@ namespace BetterCoinflips
 {
     public class Plugin : Plugin<Config, Configs.Translations>
     {
-        public override Version RequiredExiledVersion => new(9, 2, 1, 0);
+        public override Version RequiredExiledVersion => new(9, 4, 0, 0);
         public override Version Version => new(4, 5, 1);
         public override string Author => "Temi";
         public override string Name => "BetterCoinflips";
